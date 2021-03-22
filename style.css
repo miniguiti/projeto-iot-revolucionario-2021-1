@@ -1,0 +1,59 @@
+/* GERAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* INICIO ESTILO HEADER */
+.header{
+    background-color: #232323;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid orangered 3px;
+}
+
+.header h1{
+    float: left;
+    color: white;
+}
+
+.header ul{
+    /* Tira as 'bolinhas' da lista */
+    list-style: none;
+    float: right;
+}
+
+.header h1, .header ul{
+    margin-top: 20px;
+}
+
+.header li{
+    /* coloca os elementos <li> na mesma linha como blocos */
+    display: inline-block;
+    
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #444444;
+}
+
+.header ul li a{
+    /* Tira o estilo de 'link' */
+    text-decoration: none;
+    color: white;
+}
+
+.header .text-orange{
+    color: orangered;
+    font-weight: bold;
+}
