@@ -1,59 +1,128 @@
 /* GERAL */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.btn-orange{
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
 }
 
 /* INICIO ESTILO HEADER */
-.header{
-    background-color: #232323;
-    width: 100%;
-    height: 80px;
-    border-bottom: solid orangered 3px;
+.header {
+  background-color: #232323;
+  width: 100%;
+  height: 80px;
+  border-bottom: solid orangered 3px;
 }
 
-.header h1{
-    float: left;
-    color: white;
+.header h1 {
+  float: left;
+  color: white;
 }
 
-.header ul{
-    /* Tira as 'bolinhas' da lista */
-    list-style: none;
-    float: right;
+.header ul {
+  /* Tira as 'bolinhas' da lista */
+  list-style: none;
+  float: right;
 }
 
-.header h1, .header ul{
-    margin-top: 20px;
+.header h1,
+.header ul {
+  margin-top: 20px;
 }
 
-.header li{
-    /* coloca os elementos <li> na mesma linha como blocos */
-    display: inline-block;
-    
-    font-size: 17px;
-    text-transform: uppercase;
-    padding: 6px;
-    border-radius: 5px;
-    background-color: #444444;
+.header li {
+  /* coloca os elementos <li> na mesma linha como blocos */
+  display: inline-block;
+
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #444444;
 }
 
-.header ul li a{
-    /* Tira o estilo de 'link' */
-    text-decoration: none;
-    color: white;
+.header ul li a {
+  /* Tira o estilo de 'link' */
+  text-decoration: none;
+  color: white;
 }
 
-.header .text-orange{
-    color: orangered;
-    font-weight: bold;
+.header .text-orange {
+  color: orangered;
+  font-weight: bold;
 }
+
+/* Inicio Banner */
+
+.banner {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-image: url("./img/banner-fundo.jpeg");
+  background-size: cover;
+}
+
+.banner h1 {
+  padding-top: 150px;
+  font-size: 40px;
+  color: orangered;
+}
+
+.banner h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  margin-top: 15px;
+  color: #232323;
+}
+/* Fim Banner */
+
+/* Inicio Novidades */
+.news {
+  width: 100%;
+  height: 80px;
+  background-color: #232323;
+  text-align: center;
+}
+
+.news button{
+    margin-top: 25px;
+}
+/* Fim Novidades */
+
+/* Inicio Missão Visão Valores */
+
+.box{
+  text-align: center;
+}
+
+.box-item{
+  display: inline-block;
+  width: 32%;
+}
+
+.box-item img{
+  width: 100px;
+  margin-top: 35px;
+}
+
+.box-item h3, .box-item p{
+  margin-top: 15px;
+}
+
+/* Fim Missão Visão Valores */
