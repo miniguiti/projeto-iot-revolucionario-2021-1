@@ -13,13 +13,13 @@ body {
   margin: auto;
 }
 
-.btn-orange{
-    background-color: orangered;
-    border: none;
-    padding: 10px;
-    font-weight: bold;
-    color: white;
-    border-radius: 5px;
+.btn-orange {
+  background-color: orangered;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
 }
 
 /* INICIO ESTILO HEADER */
@@ -100,29 +100,77 @@ body {
   text-align: center;
 }
 
-.news button{
-    margin-top: 25px;
+.news button {
+  margin-top: 25px;
 }
 /* Fim Novidades */
 
 /* Inicio Missão Visão Valores */
 
-.box{
+.box {
   text-align: center;
 }
 
-.box-item{
+.box-item {
   display: inline-block;
   width: 32%;
 }
 
-.box-item img{
+.box-item img {
   width: 100px;
   margin-top: 35px;
 }
 
-.box-item h3, .box-item p{
+.box-item h3,
+.box-item p {
   margin-top: 15px;
 }
 
 /* Fim Missão Visão Valores */
+
+/* Formulário Login */
+
+#login{
+  background-image: url(./img/code.jpg);
+  background-size: cover;
+}
+.form-login {
+  background-color:rgb(218 218 218 / 81%);
+  width: 40%;
+  margin: auto;
+  height: 350px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.form-login h1 {
+  text-align: center;
+  padding-top: 45px;
+  font-weight: lighter;
+}
+
+.form-login label,
+.form-login input {
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.form-login input{
+  margin-bottom: 25px;
+  height: 35px;
+  border: solid #b5b5b5 1px;
+  border-radius: 5px;
+}
+
+.form-login button {
+  background-color: #10af10;
+  padding: 5px;
+  width: 20%;
+  margin-left: 40%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
