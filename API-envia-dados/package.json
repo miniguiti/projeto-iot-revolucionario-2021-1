@@ -1,0 +1,24 @@
+{
+  "name": "envia-dados2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Marise Miranda, José Yoshi, Fernanda Caramico, Giuliana Miniguiti, Guilherme Jesus @ Bandtec",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mssql": "^6.2.0",
+    "mysql": "^2.18.1",
+    "serialport": "^9.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^5.21.2",
+    "tedious": "^6.6.0"
+  }
+}

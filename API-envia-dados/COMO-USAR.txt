@@ -1,0 +1,24 @@
+1. Entre em /routes e altere o insert em 'api-sensores.js' para que você consiga inserir os dados em sua tabela.
+
+2. Entre na pasta /config e altere as credenciais de banco de dados em 'config.js', tanto local (workbench) quanto remoto (azure)
+
+3. Abra o arquivo app.js e altere na linha 1 o nome do seu ambiente
+
+4. Após fazer os passos anteriores, abra um git bash nesta pasta 
+
+5. Execute um "npm i" e aguarde
+
+6. Execute um "npm start" e aguarde
+
+Atenção ao ambiente que aparecerá no terminal! Production ou dev.
+
+7. Vá no browser e acesse o endereço http://localhost:9001/api/sendData
+
+Se aparecer "Dado inserido com sucesso." indica que foi feito 1 (um) insert no banco.
+    (você pode ler também as mensagens no terminal).
+
+Se aparecer algo sobre NaN, aguarde alguns segundos e tente novamente.
+
+Para fazer outro insert, chame e endereço http://localhost:9001/api/sendData novamente, sempre que quiser.
+   
+8. Para alterar entre DEV e PRODUCTION, altere no arquivo app.js, nesta pasta.
