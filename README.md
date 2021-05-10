@@ -1,4 +1,4 @@
-![readmes](./img/readmes.png)
+![readme](https://user-images.githubusercontent.com/37668247/117649817-58d3fb00-b166-11eb-8b79-4f40c799c0e6.png)
 # Projeto IoT Revolucionário 
 ![Badge](https://img.shields.io/badge/Code-HTML-green?&logo=html) 
 ![Badge](https://img.shields.io/badge/Code-JavaScript-yellow?&logo=api)
@@ -16,7 +16,7 @@
 - Charts
 
 ### **Layout:**
-![telas](./img/layout.png)
+![layout](https://user-images.githubusercontent.com/37668247/117649826-5a9dbe80-b166-11eb-9105-9ebf410fa1ca.png)
 # 
 
 ## Instalação
